@@ -1,7 +1,13 @@
 namespace CoPilotReviewPOC;
 
+/// <summary>
+/// Represents a weather forecast with temperature information in different units
+/// </summary>
 public class WeatherForecast
 {
+    /// <summary>
+    /// Gets or sets the date of the weather forecast
+    /// </summary>
     public DateOnly Date { get; set; }
 
     private int _temperatureC;
