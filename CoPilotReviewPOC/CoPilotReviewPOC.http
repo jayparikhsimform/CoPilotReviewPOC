@@ -1,0 +1,6 @@
+@CoPilotReviewPOC_HostAddress = http://localhost:5229
+
+GET {{CoPilotReviewPOC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
